@@ -4,7 +4,7 @@ import sys
 import pprint
 
 def main():
-    conn_string = "host='localhost' dbname='postgres' user='postgres' password='1q2w3e4r'"
+    conn_string = "host='fill_here_your_db' dbname='here_db_name’ user='user' password='password'"
 
     # get a connection, if a connect cannot be made an exception will be raised here
     conn = psycopg2.connect(conn_string)
